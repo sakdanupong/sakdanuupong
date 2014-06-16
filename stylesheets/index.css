@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}  
+
+h1 {
+    font-family:"Arvo";
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #008B45;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"Arvo";
+   font-weight: normal;
+   font-size: 30px;
+   text-align: center;
+   color: #008B45;
+   /*color: #008B45;*/
+   /*color: #6E7B8B;*/
+   /*color: #008B00;*/
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   font-family: Oswald;
+   color: #fff;
+   font-weight: normal;
+   font-size: 20px;
+   text-align: center;
+   /*margin: 5px 0;*/
+   margin-top: 0px;
+   padding: 0;
+   z-index: 1;
+	/*position: relative;*/
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+
+#header {
+	width: 100%;
+	background-color: black;
+	height: 80px;
+	position: fixed;
+	opacity: 0.7;
+	z-index: 1000;
+}
+
+#nav { 
+   width: 410px; 
+   float: right; 
+   margin-top: 20px; 
+}
+
+#nav ul{
+   list-style: none;
+   display: block;
+   margin: 0 auto;
+   list-style: none;
+}
+
+#nav li{
+   margin-top: 9px;
+   float: left;
+   padding-left: 21px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+/*#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }*/
+#nav li a:hover { color: #fff; opacity:1;  }
+
+
+
+#slide1, #slide2{ 
+   width: 100%; 
+   padding: 200px 0 0 0;
+}
+#slide1{
+   background:url('/images/bg_white_blur.png') 50% 0 no-repeat fixed;
+   /*color: #fff;*/
+   height: 600px;
+   margin: 0;
+   padding: 150px 0 0px 0;
+   background-size: cover;
+}
+
+#slide2{
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+#slide2_content{
+   width: 100%;
+   height: 2000px;
+   background-color: gray;
+}
+
+.show_content{
+   width: 960px;
+   margin: 0 auto;
+   display: block;
+}
+
+
+.device_content{
+   margin-top: 20px;
+   width: 320px;
+   height: 593px;
+   float: left;
+}
+
+.device{
+   height: 593px;
+   width: 300px;
+   position: absolute;
+}
+
+.ios_image{
+   height: 593px;
+   width: 300px;
+}
+
+
+/*#main{
+   background:url('/images/bg_white_blur.png') 50% 0px no-repeat fixed;
+   width: 100%;
+   height: 700px;
+   margin: 0;
+   background-size: cover;
+}
+
+#content{
+   width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+} */
+
+#div_test {
+   width: 100%;
+   height: 100px;
+   background-color: white;
+}
+
+
+
