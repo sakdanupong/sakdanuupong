@@ -1,0 +1,10 @@
+android device = 300 x 579
+android all = 300 x 680
+
+ios device = 300 x 593
+ios all = 300 x 700
+
+http://stackoverflow.com/questions/2105289/iphone-app-icons-exact-radius
+
+
+icon = 72 x 72
