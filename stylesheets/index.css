@@ -139,21 +139,29 @@ h3 {
 
 .work_header {
    height: 100px;
+   width: 100%;
    background-color: darkgray;
    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.3);
    -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.3);
    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.3);
-   display: block;
 }
 
+.header_left_div {
+   width: 420px;
+   height: 100px;
+   display: inline-block;
+   margin-left: 5%;
+}
+
+
 .header_logo_div {
-   width: 10%;
+   width: 50%;
    height: 100%;
    float: left;
 }
 
 .header_name_div {
-   width: 90%;
+   width: 50%;
    height: 100%;
    float: left;
 }
@@ -161,7 +169,7 @@ h3 {
 .header_logo {
    width: 70px;
    height: 70px;
-   margin-left: 40%;
+   margin-left: 80px;
    margin-top: 15px;
 }
 
@@ -175,15 +183,14 @@ h3 {
 }
 
 .show_content{
-   width: 80%;
-   margin-left: 10%;
+   width: 100%;
    margin-right: 10%;
    display: inline-block;
 }
 
 .device_row{
    margin-top: 20px;
-   width: 32.84%;
+   width: 32%;
    min-height: 593px;
    float: left;
    padding-left: 10px;

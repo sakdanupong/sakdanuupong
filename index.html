@@ -30,10 +30,12 @@
 	<div id="slide2">
 		<div id="slide2_content">
 			<div class="work_header">
-				<div class="header_logo_div">
-					<img class="header_logo" src="/images/icon/ios/wwdc_icon.png"/>
+				<div class="header_left_div">
+					<div class="header_logo_div">
+						<img class="header_logo" src="/images/icon/ios/wwdc_icon.png"/>
+					</div>
+					<div class="header_name_div">iOS</div>			
 				</div>
-				<div class="header_name_div">iOS</div>				
 			</div>
 			<div id="ios_work" class="show_content">
 				<a class="device_row" href="https://itunes.apple.com/app/read-for-the-blind/id705499163">
@@ -93,10 +95,12 @@
 				</a>
 			</div>
 			<div class="work_header">
-				<div class="header_logo_div">
-					<img class="header_logo" src="/images/icon/android/android_icon.png"/>
+				<div class="header_left_div">
+					<div class="header_logo_div">
+						<img class="header_logo" src="/images/icon/android/android_icon.png"/>
+					</div>
+					<div class="header_name_div">Android</div>
 				</div>
-				<div class="header_name_div">Android</div>				
 			</div>
 			<div id="android_work" class="show_content">
 				<a class="device_row" href="https://play.google.com/store/apps/details?id=com.samsung.blind">
@@ -169,7 +173,7 @@
 
 	function goToByScroll(id) {
     $('html,body').animate({
-        scrollTop: $(id).offset().top},
+        scrollTop: $(id).offset().top - 200},
         'slow');
 	}
 
