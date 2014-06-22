@@ -155,13 +155,13 @@ h3 {
 
 
 .header_logo_div {
-   width: 50%;
+   width: 40%;
    height: 100%;
    float: left;
 }
 
 .header_name_div {
-   width: 50%;
+   width: 60%;
    height: 100%;
    float: left;
 }
@@ -169,7 +169,7 @@ h3 {
 .header_logo {
    width: 70px;
    height: 70px;
-   margin-left: 80px;
+   margin-left: 10%;
    margin-top: 15px;
 }
 
